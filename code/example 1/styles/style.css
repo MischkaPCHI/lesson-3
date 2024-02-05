@@ -1,0 +1,36 @@
+
+ h1{
+    color: aqua;
+    font-size: 40px;
+}
+
+#header2{
+    color: rgb(204, 0, 255);
+}
+
+.headers{
+    color: rgb(255, 123, 0);
+    background-color: rgb(202, 202, 202);
+}
+
+*{
+    color: rgb(185, 26, 26);
+}
+        
+.container p{                                 /* !данный параграф в тэге(div) выбранного класса */
+    color: rgb(26, 170, 33);
+}
+        
+/* 
+.container + p{                              !после данного параграфа
+    color: rgb(26, 170, 33);
+} */
+
+/* 
+.container .parag{                              !данный класс
+    color: rgb(26, 170, 33);
+} */
+
+.header4 {
+    font-size: 35px;
+}
